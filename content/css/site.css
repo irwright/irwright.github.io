@@ -3,38 +3,6 @@ body {
 }
 
 .header {
-    position: relative;
-    color: #ffffff;
-    background: #ce0b13;
-    border-color: #ce0b13;
-    height: 200px;
-}
-
-.header-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-    height: 100%;
-}
-
-#largeLogo {
-    position: relative;
-    margin: 0 auto;
-    font-size: 80px;
-    font-weight: 900;
-    text-align: center;
-}
-
-#smallLogo {
-    margin-left: 10px;
-    font-size: 40px;
-    font-weight: 900;
-    display: inline-block;
-    position: relative;
-    bottom: 0;
-}
-
-.small-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -45,16 +13,25 @@ body {
     height: 50px;
 }
 
-.small-menu {
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
     position: relative;
+    height: 100%;
+}
+
+#logo {
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 900;
     display: inline-block;
+    position: relative;
+    bottom: 0;
 }
 
 .menu {
+    position: relative;
     display: inline-block;
-    position: absolute;
-    bottom: 0;
-    left: 20px;
 }
 
 .menu-item {
@@ -84,7 +61,7 @@ body {
 #main-content {
     max-width: 1200px;
     margin: 60px auto 0 auto;
-    height: 2000px;
+    position: relative;
 }
 
 .entry {
@@ -108,7 +85,10 @@ body {
 }
 
 .footer {
-    position: relative;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     color: #282828;
     text-align: center;
     padding: 20px;
@@ -116,4 +96,8 @@ body {
     font-style: italic;
     background: #ffffff;
     border-top: 1px solid #d8d8d8;
+}
+
+.clickable {
+    cursor: pointer;
 }
