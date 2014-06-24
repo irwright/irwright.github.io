@@ -1,0 +1,12 @@
+# Site settings
+title: Robby Codes
+email: rwright.programmer@gmail.com
+description: "Creating code for the future."
+baseurl: ""
+url: "http://robbycodes.com"
+username: "irwright"
+twittername: "rwrightDev"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
