@@ -11,9 +11,6 @@ export default function Header() {
               <Image src="/logo.png" alt="Logo" fill className="object-contain hidden dark:block" />
            </div>
         </div>
-        
-        {/* Title */}
-        <h1 className="text-3xl font-bold absolute left-1/2 transform -translate-x-1/2">Robby Wright</h1>
 
         {/* Navigation */}
         <nav className="flex gap-6">

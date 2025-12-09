@@ -11,7 +11,9 @@ export default function Home() {
         
         {/* Now Playing */}
         <section id="games" className="w-full max-w-4xl mb-16">
-          <h2 className="text-4xl font-bold text-center mb-8">Now Playing</h2>
+          <div className="mb-8 flex justify-center">
+            <Image src="/now_playing.png" alt="Now Playing" width={300} height={80} />
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow cursor-pointer" 
                 onClick={() => window.open("https://www.youtube.com/playlist?list=PL3qnmlzwF1YoBZWD1AD2ydwPh7WgfOrId", "_blank")}>
@@ -38,7 +40,9 @@ export default function Home() {
 
         {/* Previously */}
         <section className="w-full max-w-4xl mb-16">
-          <h2 className="text-3xl font-bold text-center mb-6">Previously</h2>
+          <div className="mb-8 flex justify-center">
+            <Image src="/on_demand.png" alt="On Demand" width={300} height={80} />
+          </div>
           <ul className="flex flex-col items-center gap-4">
             <li>
               <div className="p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow cursor-pointer" onClick={() => window.open("https://www.youtube.com/playlist?list=PL3qnmlzwF1YrAiocfLosqNgWiA8zu7ABQ", "_blank")}>
